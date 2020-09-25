@@ -1,0 +1,9 @@
+﻿.break-word {
+  word-wrap: break-word;
+  width:70px;
+  color:Red;
+  background-color:Yellow;
+  height:20px;
+  font-weight:bold;
+  text-align:center;
+}

@@ -1,0 +1,37 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+
+<%-- TEXTBOX --%>
+<asp:TextBox SkinID="TEXTBOX_NORMAL" ToolTip="" runat="server" />
+<asp:TextBox SkinID="TEXTBOX_BLOQ" ToolTip="" runat="server"  onpaste="return false;"  onkeypress="return bloquear(this,event);" />
+<asp:TextBox SkinID="TEXTBOX_NUMERICO" ToolTip="" runat="server"  onpaste="return false;" onkeypress="return solonumeros(this,event);" />
+<asp:TextBox SkinID="TEXTBOX_RUT_FORMATO_VALIDACION" ToolTip="" onblur="validarut(this);" runat="server" width="100px"/>
+<asp:TextBox SkinID="TEXTBOX_RUT_FORMATO" ToolTip="" onblur="formato_rut(this);" runat="server" width="100px"/>
+<asp:TextBox SkinID="TEXTBOX_DECIMAL" ToolTip="" runat="server" onblur="cerodec(this);" width="100px" onkeypress="return decimales(this,event);" />
+
+
+
+
+
+
+
+
+
+
+
+
+

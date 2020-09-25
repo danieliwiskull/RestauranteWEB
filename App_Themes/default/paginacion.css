@@ -1,0 +1,77 @@
+﻿.paginacion-cont{
+  border:1px solid #E0E0E0 ;/*#ddd;*/
+  /*font-weight:bold;*/
+  font-size:12px;
+  /*margin:2px 2px 2px 2px;*/
+  padding:5px 5px 5px 5px !important;
+  text-align: left !important;
+  color:#000000;
+  /*background: #EFF0F1 url(img/fondo_titulo1.png) no-repeat left;*/
+  /*display:block;*/
+  height:20px;
+  overflow: hidden;
+ /*clear:both;*/
+}
+
+.pagizq
+{
+  /*border:1px 1px 1px 1px solid #E0E0E0 ;*/
+  /*font-weight:bold;*/
+  font-size:12px;
+  text-align: left !important;
+  color:#000000;
+  float:left;
+  width:50%;
+  /*background: #fc3; */
+  vertical-align:middle;
+}
+
+.pagder
+{
+  /*border:1px 1px 1px 1px solid #E0E0E0 ;*/
+  font-weight:bold;
+  font-size:12px;
+  text-align: right !important;
+  color:#000000;
+  float:right;
+  width :50%;
+  vertical-align:middle;
+}
+
+
+/* Paginacion */
+.paginacion{
+  list-style: none;
+  height:25px;
+  vertical-align: middle;
+  font-weight: bold;
+  /*border : 1px solid black;*/
+}
+
+.paginacion .titulo_pag{
+  display: block;
+  float: left;
+  padding: 6px 0px 0px 0px;
+  font-weight: bold;
+  /*border : 1px solid red;*/
+}
+
+.paginacion .navegacion {
+  padding: 3px 0px 0px 0px;
+  float:right;
+  /*border : 1px solid green;*/
+  width: 150px;
+}
+
+.paginacion .navegacion li{
+   display: block;
+     float:right;
+     margin-left: 3px;
+}
+
+.paginacion .navegacion li.txt{
+  padding-top: 5px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+/*Fin paginacion*/

@@ -1,0 +1,65 @@
+<asp:GridView runat="server" SkinId="Grilla1" BackColor="White" CssClass="grilla_datos1">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+
+<asp:GridView runat="server" SkinId="FancyTable" BackColor="White" CssClass="fancyTable">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+
+
+<asp:GridView runat="server" SkinId="Tabla01" BackColor="White" CssClass="tabla01" GridLines="none">
+     <RowStyle BackColor="#F7F6F3" ForeColor="#333333" CssClass="rowHover"/>
+     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White"  />
+     <PagerStyle ForeColor="White" />
+     <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+     <EditRowStyle BackColor="#999999" />
+     <AlternatingRowStyle BackColor="White" ForeColor="#284775" CssClass="rowHover" />      
+</asp:GridView>
+
+<asp:GridView runat="server" SkinId="Tabla02" BackColor="White" CssClass="tabla02">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+
+<asp:GridView runat="server" SkinId="Tabla03" BackColor="White" CssClass="tabla03">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+<asp:GridView runat="server" SkinId="Tabla04" BackColor="White" CssClass="tabla04" GridLines="none">
+     <RowStyle BackColor="#F7F6F3" ForeColor="#333333" CssClass="rowHover"/>
+     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White"  />
+     <PagerStyle ForeColor="White" />
+     <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+     <EditRowStyle BackColor="#999999" />
+     <AlternatingRowStyle BackColor="White" ForeColor="#284775" CssClass="rowHover" />      
+</asp:GridView>
+
+<asp:GridView runat="server" SkinId="Tabla05" BackColor="White" CssClass="tabla05" GridLines="none">
+     <RowStyle BackColor="#F7F6F3" ForeColor="#333333" CssClass="rowHover"/>
+     <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White"  />
+     <PagerStyle ForeColor="White" />
+     <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+     <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+     <EditRowStyle BackColor="#999999" />
+     <AlternatingRowStyle BackColor="White" ForeColor="#284775" CssClass="rowHover" />      
+</asp:GridView>

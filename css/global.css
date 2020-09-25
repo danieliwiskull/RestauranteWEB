@@ -1,0 +1,1279 @@
+﻿/*
+Colores predominantes en sistema de leasing.
+#F7F7EF  plomo suave
+#FCEFC3  amarillo suave
+#5D7B9D  azul piedra
+___________________________________________________________________________________________*/
+
+
+/* Definicion de estilos por nombre generico de elementos */
+hr
+{
+	color: #cccccc;
+}
+
+P 
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #c42e49;
+	border: thin none;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	text-transform: none;
+	text-align: left;
+}
+
+LI /*la defincion de este estilo rige incluso para los elementos link del menu aspNet */
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+}
+
+A:active /*la defincion de este estilo rige incluso para los elementos link del menu aspNet */
+{
+	/**/
+}
+
+A:visited /*la defincion de este estilo rige incluso para los elementos link del menu aspNet */
+{
+	/**/
+}
+
+A:link /*la defincion de este estilo rige incluso para los elementos link del menu aspNet */
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #0B0B3B;
+	font-weight: normal;
+	text-decoration: none;
+	word-spacing: inherit;
+}
+
+A:hover /*la defincion de este estilo rige incluso para los elementos link del menu aspNet */
+{
+	
+ 	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: Purple;
+	font-weight: normal;
+	text-decoration: none;
+	word-spacing: inherit;
+}
+
+image
+{	
+	padding-right: 6px;
+	border-style:none;
+}
+
+legend
+{
+	color: #484848;
+	font-size: 12px;
+	font-weight : bold;
+	MARGIN-BOTTOM: 5px; 
+	PADDING-BOTTOM: 5px; 
+	MARGIN-LEFT: 10px; 
+	VERTICAL-ALIGN: bottom;
+}
+
+label
+{
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+fieldset
+{
+    margin: 15px  auto 0px auto;
+    border: 1px solid #cccccc;
+    font-family: arial, verdana, helvetica, sans-serif;
+   
+}
+
+.tabla table{
+	margin :0 0 0 90px;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+
+.tabla th{
+  height: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.tabla td{
+  height: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size : 12px;	
+}
+
+
+/*___________________________________________________________________________________________*/
+/* Definicion Definicion de estilos por clases */
+.estilo_botonCalendario
+{
+	border: solid 2px White;
+	width: 22px;
+	height: 20px;
+	padding: 1px 1px 1px 1px;
+	background-image: url(images/date.png);
+	background-position: center;
+	background-color: White;
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+.estilo_botonCalendario:hover
+{
+	background-color: #FCEFC3; /* #5D7B9D; */
+	cursor: hand;
+}
+
+
+  
+.estilo_cotenedorPadre
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+	width: 850px;
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+.estilo_bordeFino
+{
+    border: solid 1px #cccccc;
+	margin-top: 30;   
+    padding-right: 15;    
+    padding-bottom: 10;
+    padding-left: 50;
+    background-color: #FFFFFF;
+}
+
+.estilo_areaInfoResumen
+{
+    margin-top: 0px;     
+    padding-top: 0px;
+    margin-left: 40px;
+    padding-left: 0px;  
+    /*border: 1px solid #cccccc; */
+}
+
+.estilo_panelmenuleft
+{
+	vertical-align: top;
+	text-align: right;
+	margin-top: 200px;
+	margin-right: 0px;
+	padding-top: 200px;
+	padding-right: 0px;
+	width: 100%;
+}
+
+.estilo_botonera
+{
+	margin : 5px 0px 0px 0px;
+	padding: 0px 0px 2px 40px;
+    border : #484848 1px solid;
+    height : 22px;
+    border: 1px solid #cccccc;
+    background: #D4ECEE;
+    /*background: #F7F7EF;*/
+}
+
+.estilo_botoneraIz
+{
+	margin : 15px 20px 0px 5px;
+	padding-left: 15px;
+    border : #484848 1px solid;
+    height : 22px;
+    border: 1px solid #cccccc;
+    text-align: left;
+    background: #F7F7EF;
+    width:auto;
+}
+
+.estilo_labelGenerico
+{
+    margin-right :10px;
+    color: #484848;
+    font-family: Arial;
+    font-weight : bold ;
+    font-size :12px;
+    width :auto;
+}
+
+.estilo_hojaindex
+{
+	margin: 15px auto;
+	margin-top: 15px;
+	width: 750px;
+	height: 120px;
+}
+
+.estilo_div_overflow
+{
+	overflow: auto;
+}
+
+.estilo_div_gridviews
+{
+	margin:  15px   auto;
+	margin-top :15px;
+	width:750px;
+	height : 120px;
+}
+
+.estilo_gridviews
+{
+	font-family : arial, verdana, helvetica, sans-serif;
+	font-size : 11px;/*small;     */
+    border: 1px solid #ccc;
+	/*margin-bottom: 5px;*/
+} 
+
+.estilo_boton{
+	text-align: center;
+	font-size: xx-small;
+	font-weight: bold;
+	border: 1px double #cccccc;
+	width: 80px;
+	background: url(../img/button_bg.gif) repeat-x;
+	padding: 0px 10px;
+	margin: 0px;
+	cursor: hand;
+}
+
+.estilo_div_centrado
+{
+	display:none;
+	position: absolute;
+	left: auto;
+	top: 200px;
+    margin : 15px  auto 0 auto;
+	width: 800px;
+	text-align: center;
+	z-index: 100; 
+	background-color: transparent;
+}
+
+.estilo_formularios
+{
+	margin: 15px auto auto 15px;
+	width: 750px;
+	text-align: left;
+} 
+
+.estilo_formMovimientos
+{
+    margin-top: 0px;    
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+	margin-left: 5px;
+    border: 1px solid #cccccc;
+}
+
+.estilo_colorBeige
+{
+
+	
+    /*background: #f7f7ef; */
+    border: 1px solid #cccccc;
+    margin: 5px auto auto auto;
+}
+
+.estilo_botonera_interior
+{
+	margin-left :30px;
+    margin-top :2px;
+    margin-bottom : 2PX;
+    
+    
+	margin:  6px   auto;
+    width:96%;
+    height : 22px;
+    border: 1px solid #cccccc;
+    background: #D4ECEE;
+    
+}
+
+.estilo_contenedorCalendario
+{
+	margin: 15px auto;
+	margin-top :15px;
+	width:750px;
+}
+
+.letraBotonera
+{
+    margin-right :10px;
+    color: #484848;
+    font-family: Arial;
+    font-weight : bold ;
+    font-size :12px;
+    width :auto;
+}
+
+.inputboxN
+{
+	margin: 0 0 0 0;
+	border: 1px solid #cccccc;
+}
+.table_style
+{
+    border: 1px solid #cccccc; 
+}
+
+.texto
+{
+    background-image:url(../images/form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	font-family:tahoma, arial, sans-serif;
+ }
+ .texto:focus
+{
+	background-image: none;
+	background-color: #F2FFF2;
+}
+.letralblV
+{
+    margin-right :10px;
+    color: #484848;
+    padding:4px;    
+    font-size: 12px;
+    width :auto;
+  	font-family:tahoma, arial, sans-serif;
+}
+
+.letralbl
+{
+    margin-right :10px;
+    color: #484848;
+    font-family: Arial;
+    font-weight : bold ;
+    font-size :12px;
+    width :auto;
+}
+
+.InformeEncabezado
+{
+	margin : 15px auto 0 auto;
+    /*border : #484848 1px solid;*/
+    height : 65px;
+   /* border: 1px solid #cccccc;
+    background: #F7F7EF;*/
+    
+}
+
+/*.EntornoInforme
+{
+    border-collapse: collapse; 
+    border:1;  
+}*/
+
+.ZonaInforme
+{
+   /* border: 1px solid #cccccc;*/
+   /* background: #F7F7EF;*/
+    /*text-align:center;*/
+    border-collapse: collapse; 
+}
+
+.nombreTitulo
+{
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #484848;
+}
+
+.altocelda
+{
+    border: 0px; /*solid #cccccc;*/
+    height :40px;
+}
+
+.bordetabla
+{
+	border-collapse: collapse; 
+	 border:1px solid #000000;
+}
+
+.ZonaContenido
+{
+  text-align: left;
+  font-size: 7px;
+  font-weight: bold;
+  color: #484848;
+}
+
+.nombreParrafo
+{
+  text-align: justify;
+  font-size: 11px;
+  font-weight: bold;
+  /*color: #484848;*/
+}
+
+.anchoInforme
+{
+	margin: 15px   auto;
+	width:800px;
+	PADDING-TOP: 0px;
+	margin-top :0px;
+	font-family : Arial, Verdana, Helvetica, sans-serif;	
+	
+}
+
+.anchoInformeIz
+{
+    float: left ;
+}
+
+.anchoInformedr
+{  
+    float: right;
+    width : 250px;  
+}
+
+.InformeEncabezado1
+{
+	margin : 15px auto 0 auto;
+    height : 65px;
+    margin-top : 80px;    
+    
+}
+
+/*___________________________________________________________________________________________*/
+/*Definicion de estilos por ID del Elemento */
+
+div#contenedorTabs
+{
+	margin:  50px   auto;
+}
+
+div#ContenedorBotoneraIz
+{
+	margin-left :40px;
+	float : left  ;
+	width:450px;
+	/*border : #484848 1px solid;*/
+}
+
+div#ContenedorBotoneraDr
+{
+	float : right;
+	width: 100px;
+}
+
+div#ContenedorBotonera
+{
+	margin : 5px 0px 0px 0px;
+    border : #484848 1px solid;
+    height : 22px;
+    border: 1px solid #cccccc;
+    background: #F7F7EF;
+}
+
+div#contenedorAhorrante
+{
+    margin-top: 15px;
+	margin: 15px   auto;
+	width: 750px;
+	
+}
+
+div#contenedorDetalleCuenta
+{
+    margin:  15px 15px 0px  auto;
+	width:100%;
+	/*border : #484848 1px solid;*/
+	height : 100px;
+}
+
+div#botoneraCuentaDr
+{
+    margin-left :40px;
+	float : left  ;
+	width:100px;
+}
+
+div#contenedorBotoneraInterior
+{
+    margin-top :2px;
+	margin:  6px   auto;
+    width:96%;
+    height : 22px;
+    border: 1px solid #cccccc;
+    background: #F7F7EF;
+}
+
+div#contenedorBotoneraDescuento
+{
+    margin-top :2px;
+	margin:  6px   auto;
+    width:96%;
+    height : 22px;
+    border: 1px solid #cccccc;
+    background: #F7F7EF;
+}
+
+div#contenedor1
+{
+    margin-top :15px;
+	margin:  15px   auto;
+	width:750px;
+}    
+
+div#ContenedorBotonera1
+{
+    margin-top :15px;
+    width:100%;
+    height : 22px;
+    border: 1px solid #cccccc;
+    background: #F7F7EF;
+}
+
+div#botoneraDr1
+{
+    margin-left :40px;
+	float : left  ;
+	width:450px;
+}
+
+div#contenedor2
+{
+    margin-top :15px;
+	margin:  15px   auto;
+	width:750px;
+}    
+
+div#contenedorGr
+{
+    margin-top :15px;
+	margin:  15px   auto;
+	width:750px;
+	height : 100px;
+}    
+
+div#direccionDr1
+{
+    
+    float :  right;
+	width:435px;
+}
+
+div#contenedorGrControlMov
+{
+    margin-top :15px;
+	margin:  15px   auto;
+	width:750px;
+	height : 350px;
+}    
+
+div#contenedorCalendario
+{
+    margin-top :15px;
+	margin:  15px   auto;
+	width:100%;
+	height : 350px;
+}    
+
+div#calendario
+{
+    margin-top :25px;
+	margin:  15px   auto;
+	width:270px;
+}
+div#InformeContenedor
+{
+	margin:  15px   auto;
+	width:850px;
+	MARGIN-TOP: 0px; 
+	PADDING-TOP: 0px;
+	font-family : Arial, Verdana, Helvetica, sans-serif;
+}
+
+div#InformeEncabezadoLogo
+{
+    float: left ;
+    margin-left:10px; 
+}
+
+div#InformeEncabezadoTitulo 
+{
+    margin-left:140px;
+    font-size: 15px;
+    float: left ;
+    text-align:center;
+    font-weight: bold;
+    color: #484848;
+}
+
+div#InformeEncabezadoLogoSofofa
+{
+    margin-right :20px;    
+    float: right;
+    width : 75px;
+    height :60px;
+}
+
+div#InformeDetalle
+{
+	margin:  15px   auto;
+	width:850px;
+	MARGIN-TOP: 30px; 
+	PADDING-TOP: 0px;
+	font-family : Arial, Verdana, Helvetica, sans-serif;
+	/*border: 0px solid #cccccc;*/
+}
+
+
+div#InformeContenedor1
+{
+	margin:  15px   auto;
+	width:850px;
+	MARGIN-TOP: 0px; 	
+	PADDING-TOP: 0px;
+	font-family : Arial, Verdana, Helvetica, sans-serif;
+}   
+div#InformeEncabezadoLogo1
+{
+    float: left ;
+    margin-left:10px; 
+}
+div#InformeEncabezadoTitulo1
+{
+    margin-left:60px;
+    font-size: 15px;
+    float: left;
+    text-align:center;
+    font-weight: bold;
+    color: #484848;
+}
+div#InformeEncabezadoTitulo2
+{
+    margin-left:60px;
+    font-size: 15px;
+    float: left;
+    text-align:center;
+    font-weight: bold;
+    color: #484848;
+}
+div#InformeEncabezadoLogoSofofa1
+{
+    margin-right :20px;
+    float: right;
+    width : 75px;
+    height :60px;
+}
+div#InformeDetalle1
+{
+	margin:  15px   auto;
+	width:850px;
+	MARGIN-TOP: 30px; 
+	PADDING-TOP: 0px;
+	font-family : Arial, Verdana, Helvetica, sans-serif;
+	/*border: 1px solid #cccccc;*/
+}
+.contenedor_popUp
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+	width: 750px;
+	height :245px;
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+.contenedorPlanilla_popUp
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+	width: 850px;
+	height :245px;
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+.contenedorPlanilla_consulta_popUp_normal
+{
+	margin: 5px  auto 10px auto;
+ /*   border: 1px solid #cccccc;*/
+	width: 820px;
+	
+}
+
+.contenedorPlanilla_panelgrilla_popUp_normal 
+{
+	margin: 5px  auto 10px auto;
+   /* border: 1px solid #cccccc;*/
+	width: 820px;
+}
+
+.contenedor_grilla_popUp_normal
+{
+	width: 802px;
+	margin: 0 auto;
+	/*overflow-y: auto;*/
+
+}
+
+.fieldset_popup
+{
+	margin: 0px  auto 0px auto;
+    border: 1px solid #cccccc;
+    font-family: arial, verdana, helvetica, sans-serif;
+}
+
+.contenedor_consulta
+{
+	margin-top :15px;
+	margin:  15px   auto;
+	width:800px;
+	 border: 1px solid #cccccc;
+    background: #F7F7EF;
+}    
+
+.contenedor_panelgrilla_popUp_normal 
+{
+	margin: 5px  auto 10px auto;
+   /* border: 1px solid #cccccc;*/
+	width: 720px;
+	
+}
+.contenedor_grilla_popUp_normal
+{
+	width: 702px;
+	margin: 0 auto;
+	/*overflow-y: auto;*/
+
+}
+.contenedor_consulta_popUp_normal
+{
+	margin: 5px  auto 10px auto;
+ /*   border: 1px solid #cccccc;*/
+	width: 720px;
+	
+}
+
+.contenedor_consulta_popUp_Pequeno
+{
+	margin: 5px  auto 5px auto;
+	margin-top :15px;
+	width: 540px;
+}
+.contenedor_popUp_Pequeno
+{
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+
+	width: 650;
+	height:205;
+
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+	.estilo_botoneraInformes
+{
+	padding: 0px 0px 5px 5px;
+	border: solid 1px #cccccc;
+	color: #cccccc;
+	font-size: 90%;
+	text-align: right;
+	background: #F7F7EF;
+	MARGIN-BOTTOM: 5px; 
+	PADDING-BOTTOM: 5px; 
+	MARGIN-LEFT: 10px; 
+	VERTICAL-ALIGN: bottom;
+}
+
+.contenedor_consulta_popUp_Confirmacion
+{
+	margin:5px  auto 5px auto;
+	border: 1px solid #cccccc;
+	width: 440px;
+}
+
+.contenedor_popUp_Confirmacion
+{
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+
+	width: 470px;
+	height:270px;
+
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+
+.contenedor_popUp_ConfirmacionDev
+{
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+
+	width: 470px;
+	height:240px;
+
+	font-family: arial, verdana, helvetica, sans-serif;
+}
+
+
+
+      
+.celdacontenedora
+{
+ border:1px solid #000000;
+ text-align:center;
+ border-collapse: collapse; 
+ border:1;
+}
+.InformeContenedor
+{
+	margin:  15px   auto;
+	width:850px;
+	MARGIN-TOP: 0px; 
+	PADDING-TOP: 0px;
+	font-family : Arial, Verdana, Helvetica, sans-serif;
+}
+.anchoCelda
+{
+	margin: 15px   auto;
+	width:215px;
+	PADDING-TOP: 0px;
+	margin-top:0px; 
+	font-family : Arial, Verdana, Helvetica, sans-serif;	
+	
+}
+.transaccion
+{
+	width :400px;
+    margin: 15px  auto 0px auto;
+
+    font-family: arial, verdana, helvetica, sans-serif;
+   
+}
+.boton01
+{
+	background: url(../images/boton01.png);
+	height: 25px;
+	width:130px;
+	display: inline;
+	margin: 0 0 0 0;
+	border: 0px solid #cccccc;
+	font-weight:bold;
+	color:Black;
+	margin:5px 5px 5px 5px;
+	cursor:hand;
+	cursor:pointer;
+	font-size:11px;
+}
+.boton01:hover,.boton01 a:hover
+{
+     background-position:0px 25px;
+     font-weight:bold;
+	 color:White;
+	 margin:5px 5px 5px 5px;
+	 cursor:hand;
+	 cursor:pointer;
+	 font-size:11px;
+}
+
+
+input.textfield, textarea {
+  background: #FFF url(img/textfield.gif) top repeat-x;
+  border: 1px solid #A6A6A6;
+  padding: 2px 1px;
+  font-size: 12px;
+  font-family: Verdana, "BitStream vera Sans", Tahoma, Helvetica, Sans-serif;
+}
+
+
+
+
+.borde{
+  border: 1px solid #cccccc;
+  padding-left:  30px;
+  padding-right: 30px;
+  margin: 1px;
+ }
+
+
+.Ztabla01 th {border: solid 1px #0C5870;border-top: solid 1px #076591;}
+.Ztabla01 th{color: #FFF;font-size: 18px;font-weight: normal;height: 20px;padding: 8px 5px 3px 5px;-moz-border-radius-topright: 5px;-moz-border-radius-topleft: 5px;-webkit-border-top-right-radius: 5px;-webkit-border-top-left-radius: 5px;border-top-right-radius: 5px;border-top-left-radius: 5px;-webkit-box-shadow: inset 0px 1px 0px 0px rgba(235, 235, 235, 0.77);-moz-box-shadow: inset 0px 1px 0px 0px rgba(235, 235, 235, 0.77);box-shadow: inset 0px 1px 0px 0px rgba(235, 235, 235, 0.77);}
+.Ztabla01 th{background: #076591 url(img_agencia/blue.png?66537)repeat-x;}
+
+.tabla_limpia ,tabla_limpia td ,tabla_limpia th ,tabla_limpia tr {
+     border-collapse:collapse !important;
+     border: none !important;
+}
+
+
+
+.tabla01{
+      border: 1px solid #CDCDCD;
+      border-collapse: collapse;
+}
+
+.tabla01 th {
+	font-size: 10px;
+	font-weight:bold;
+	color: #FFFFFF;
+	/*border-right: 1px solid #C1DAD7;*/
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #CDCDCD;
+   /* border-left: 1px solid #C1DAD7;*/
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 4px 4px 4px 12px;
+	/*background: #036DAD;*/
+    background: #076591 url(img_agencia/blue20.png)repeat-x;
+	vertical-align:middle;
+    height: 20px;
+}
+
+.tabla01 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	/*border-right: 1px solid #C1DAD7;*/
+	background: none;
+	vertical-align:middle;
+}
+
+.tabla01 td
+{
+	font-size: 10px; /*border-right: 1px solid #C1DAD7;*/
+	border-bottom: 1px solid #CDCDCD; /* border-left: 1px solid #C1DAD7;*/
+	border-top: 1px solid #CDCDCD; /*background: #fff;*/
+	padding: 3px 6px 3px 12px;
+	color: #373737;
+	vertical-align: middle;
+	min-height: 15px;
+}
+
+
+.tabla01 td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.tabla01 th.spec {
+	/*border-left: 1px solid #C1DAD7;*/
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+		font-size: 10px;
+	font-weight:bold;
+}
+
+.tabla01 th.specalt {
+	border-left: 1px solid #CDCDCD;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+		font-size: 10px;
+	font-weight:bold;
+	color: #797268;
+}
+
+
+
+/* Tabla 02 */
+
+.tabla02{
+      border: 1px solid #CDCDCD;
+      border-collapse: collapse;
+}
+
+.tabla02 th {
+	font-size: 10px;
+	font-weight:bold;
+	color: #FFFFFF;
+	border-right: 1px solid #CDCDCD;
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #036DAD; /*url(images/bg_header.jpg) no-repeat;*/
+	vertical-align:middle;
+    height: 20px;
+}
+
+.tabla02 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #CDCDCD;
+	background: none;
+}
+
+.tabla02 td {
+	border-right: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+	font-size: 10px; /*border-right: 1px solid #C1DAD7;*/
+	border-bottom: 1px solid #CDCDCD; /* border-left: 1px solid #C1DAD7;*/
+	border-top: 1px solid #CDCDCD; /*background: #fff;*/
+	padding: 3px 6px 3px 12px;
+	color: #373737;
+	/*vertical-align: middle;*/
+	height: 15px;
+}
+
+
+.tabla02 td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.tabla02 th.spec {
+	border-left: 1px solid #CDCDCD;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+		font-size: 10px;
+	font-weight:bold;
+}
+
+.tabla02 th.specalt {
+	border-left: 1px solid #CDCDCD;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font-size: 10px;
+	font-weight:bold;
+	color: #797268;
+}
+
+
+.rowHover:hover
+ {
+   background-color: #CCFF66 !important;
+ }
+ .rowHover:active
+ {
+   background-color: #CCFF66 !important;
+ }
+ .rowHover:focus
+ {
+   background-color: #CCFF66 !important;
+ }
+ 
+ 
+ /*  TABLA 03  */
+ 
+
+.tabla03{
+      border: 1px solid #CDCDCD;
+      border-collapse: collapse;
+}
+
+.tabla03 th {
+	font-size: 9px;
+	font-weight:bold;
+	color: #FFFFFF;
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #CDCDCD;
+	border-right: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 2px 2px 2px 12px;
+    background: #076591 url(img_agencia/blue20.png)repeat-x;
+	vertical-align:middle;
+    height: 15px;
+}
+
+.tabla03 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	background: none;
+	vertical-align:middle;
+}
+
+.tabla03 td
+{
+	font-size: 10px; 
+	border-bottom: 1px solid #CDCDCD; 
+	border-top: 1px solid #CDCDCD; 
+	border-right: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;	
+	padding: 2px 4px 2px 12px;
+	color: #373737;
+	vertical-align: middle;
+	min-height: 15px;
+}
+
+
+.tabla03 td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.tabla03 th.spec {
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+.tabla03 th.specalt {
+	border-left: 1px solid #CDCDCD;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+		font-size: 10px;
+	font-weight:bold;
+	color: #797268;
+}
+
+
+
+
+
+/*  TABLA 04  */
+
+.tabla04{
+      border: 1px solid #CDCDCD;   /*C1DAD7*/
+      border-collapse: collapse;
+}
+
+.tabla04 th {
+	font-size: 9px;
+	/*font-weight:bold;*/
+	color: #FFFFFF;
+	border-right: 1px solid #CDCDCD;
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4px 2px 4px 6px;
+	/*background: #036DAD;*/
+    /*background: #076591 url(img_agencia/blue20.png)repeat-x;*/
+    background-color: #076591;
+	vertical-align:middle;
+    height: 20px;
+}
+
+.tabla04 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	/*border-right: 1px solid #C1DAD7;*/
+	background: none;
+	vertical-align:middle;
+}
+
+.tabla04 td
+{
+	font-size: 10px; /*border-right: 1px solid #C1DAD7;*/
+	border-bottom: 1px solid #CDCDCD; /* border-left: 1px solid #C1DAD7;*/
+	border-top: 1px solid #CDCDCD; /*background: #fff;*/
+	padding: 4px 2px 4px 6px;
+	color: #373737;
+	vertical-align: middle;
+	min-height: 15px;
+}
+
+
+.tabla04 td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.tabla04 th.spec {
+	/*border-left: 1px solid #C1DAD7;*/
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+		font-size: 10px;
+	font-weight:bold;
+}
+
+.tabla04 th.specalt {
+	border-left: 1px solid #CDCDCD;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+		font-size: 10px;
+	font-weight:bold;
+	color: #797268;
+}
+
+
+
+
+input[type="text"],
+textarea {
+  font-size: 12px;
+  font-weight:bold;
+  letter-spacing: 0;
+  padding: 2px 5px 2px 5px;
+  border: 1px solid #848484;
+  background-color : #FFFFFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  /*min-width: 150px;*/
+  min-height: 17px;
+}
+
+input[type="text"]:focus,textarea:focus {
+  border-color: #007CFF;
+  /*007CFF*/
+}
+
+input[type="text"]:hover,textarea:hover {
+  border-color: #007CFF;
+}
+
+.estilo_botonCalendario
+{
+	border: solid 2px White;
+	width: 22px;
+	height: 18px;
+	padding: 1px 1px 1px 1px;
+	background-image: url(../images/date.png);
+	background-position: center;
+	background-color: White;
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+
+
+.ocultar{
+    visibility : hidden;
+
+}

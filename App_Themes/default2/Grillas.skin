@@ -1,0 +1,56 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+     <AlternatingRowStyle CssClass="AlternatingRowStyle"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+
+--%>
+<asp:GridView runat="server" SkinId="Grilla1" BackColor="White" CssClass="grilla_datos1">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+
+<asp:GridView runat="server" SkinId="FancyTable" BackColor="White" CssClass="fancyTable">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+
+
+<asp:GridView runat="server" SkinId="Tabla01" BackColor="White" CssClass="tabla01">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>
+
+<asp:GridView runat="server" SkinId="Tabla02" BackColor="White" CssClass="tabla02">
+     <AlternatingRowStyle CssClass="rowHover"/>
+     <RowStyle CssClass="rowHover"/> 
+     <HeaderStyle CssClass="HeaderStyle"/>
+     <FooterStyle CssClass="FooterStyle"/>
+     <PagerStyle CssClass="PagerStyle"/>   
+</asp:GridView>

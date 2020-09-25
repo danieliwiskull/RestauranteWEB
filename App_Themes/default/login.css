@@ -1,0 +1,156 @@
+#wrapper {
+        border: 0px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+}
+
+#header {
+        background-color: #FFF;
+        background-position: right top;
+        border-bottom: 4px solid #003366;
+        background: url(img/Banner_centro.gif);
+}
+
+#version {
+        position: relative;
+        width: 100%;
+        background: url(img/Banner_Der.gif) no-repeat;
+        background-position: bottom right;
+        margin: 0px;
+        padding: 0px;
+}
+
+#break {
+	height: 50px;
+}
+
+form {
+    margin: 0px;
+}
+
+
+
+.button {
+	border : solid 1px #cccccc;
+	background: #E9ECEF;
+	color : #666666;
+	font-weight : bold;
+	font-size : 11px;
+	padding: 4px;
+	cursor: pointer;
+    cursor : hand;
+}
+
+.login {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	padding: 15px;
+	border: 1px solid #cccccc;
+	width: 429px;
+	background: #F1F3F5;
+}
+
+.divCentrado {
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 6em;*/
+	width: 429px;
+    vertical-align:middle;
+    display:table;
+	/*background: #F1F3F5;*/
+}
+	
+.login h1 {
+	background: url(img/login_header.gif) no-repeat;
+	background-position: left top;
+	color: #333;
+	margin: 0px;
+	height: 50px;
+	padding: 15px 4px 0 50px;
+ 	text-align: left;
+	font-size: 11px;
+}
+
+.login p {
+	padding: 0 1em 0 1em;
+	}
+	
+.form-block {
+	border: 1px solid #cccccc;
+	background: #E9ECEF;
+  	padding-top: 2px;
+	padding-left: 10px;
+   	padding-bottom: 2px;
+	padding-right: 10px;
+}
+
+.form-blockX {
+	border: 1px solid #cccccc;
+	background: #E9ECEF;
+  	padding-top: 15px;
+	padding-left: 10px;
+   	padding-bottom: 15px;
+	padding-right: 10px;
+}
+
+.login-form {
+	text-align: left;
+	float: right;
+	width: 60%;
+}
+
+.login-text {
+	text-align: left;
+	width: 40%;
+	float: left;
+}
+
+.inputlabel {
+	font-weight: bold;
+	text-align: left;
+    padding-bottom: 5px;
+	}
+
+.inputbox {
+	width: 150px;
+	margin: 0 0 1em 0;
+	border: 1px solid #cccccc;
+	}
+
+
+.inputboxNuevo {
+	width: 150px;
+	margin: 0 0 0 0;
+	border: 1px solid #cccccc;
+	}
+
+.inputboxNuevoX {
+	margin: 0 0 0 0;
+	border: 1px solid #cccccc;
+	}
+
+.inputboxNuevoU {
+	width: 150px;
+	margin: 0 0 0 0;
+	border: 1px solid #cccccc;
+	text-transform: uppercase;
+	}
+
+
+.clr {
+    clear:both;
+    }
+
+.ctr {
+	text-align: center;
+}
+
+.msgNuevoX {
+	margin: 0 0 0 0;
+	border: 1px solid #cccccc;
+    min-width: 373px;
+    width: 100%;
+}

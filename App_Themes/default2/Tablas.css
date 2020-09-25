@@ -1,0 +1,250 @@
+/*body {
+	font: normal 11px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	background: #E6EAE9;
+}
+
+a {
+	color: #c75f3e;
+}*/
+
+.borde{
+ /* border: 1px 1px 1px 1px solid #ABABAB;*/
+  border: 1px solid #cccccc;
+  padding-left:  30px;
+  padding-right: 30px;
+  margin: 1px;
+ }
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+.tabla01{
+      border-left: 1px solid #C1DAD7;
+}
+
+.tabla01 th {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 8px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+	vertical-align:middle;
+}
+
+.tabla01 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+	vertical-align:middle;
+}
+
+.tabla01 td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+	/*background: #fff;*/
+	padding: 3px 6px 3px 8px;
+	color: #4f6b72;
+	vertical-align:middle;
+	height: 18px;
+	white-space:normal;
+}
+
+
+.tabla01 td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.tabla01 th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tabla01 th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+
+
+
+/* Tabla 02 */
+
+.tabla02{
+      border-left: 1px solid #C1DAD7;
+}
+
+.tabla02 th {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 6px 6px 6px 8px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+	vertical-align:middle;
+}
+
+.tabla02 th.nobg {
+	border-top: 0;
+	border-left: 0;
+	border-right: 1px solid #C1DAD7;
+	background: none;
+}
+
+.tabla02 td {
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+	/*background: #fff;*/
+	padding: 6px 6px 6px 8px;
+	color: #4f6b72;
+    height: 60px;
+    vertical-align: middle;
+    
+}
+
+
+.tabla02 td.alt {
+	background: #F5FAFA;
+	color: #797268;
+}
+
+.tabla02 th.spec {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(images/bullet1.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tabla02 th.specalt {
+	border-left: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+
+
+
+
+
+/* grillas */
+
+.grilla_datos1{
+   /*width: 100%;*/
+}
+
+.grilla_datos1 th{
+   	color: #4f6b72;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+    border-left: 1px solid #C1DAD7;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 3px 3px 3px 3px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+	vertical-align:middle;
+}
+
+.grilla_datos1 td{
+   padding: 0px 3px 0px 3px;
+   vertical-align: middle !important;
+   min-height: 18px;
+   }
+
+.tabla_edit{
+   border : 1px 1px 1px 1px solid #C1DAD7;
+}
+
+.tabla_edit td{
+   border : 1px 1px 1px 1px solid #C1DAD7;
+   vertical-align: middle !important;
+}
+
+
+.rowHover:hover
+ {
+   background-color: #E8F7FF !important;
+ }
+
+ /* Tabla en grilla*/
+
+.tablag{
+    border : 0px 0px 0px 0px solid;
+ }
+
+.tablag th{
+     border : 0px 0px 0px 0px solid;
+ }
+
+.tablag td{
+     border : 0px 0px 0px 0px solid;
+     min-height: 5px;
+ }
+
+
+.tabla_ingreso td{
+	  min-height:24px;
+	}
+
+
+
+/*Tabla edicion de datos*/
+
+.tablaedicion{
+   border-collapse:collapse;
+   /*width: 100% !important;*/
+
+}
+
+.tablaedicion td{
+   border: 1px solid #DDDDDD ;
+   padding: 3px 5px 3px 10px;
+   min-height:18px;
+
+}
+
+.tablaedicion td img{
+  vertical-align: middle;
+}
+
+
+.tablaedicion td:first-child{
+   background-color: #F2F0EE;
+   min-width: 40px;
+   max-width: 200px;
+   white-space: nowrap;
+   text-align: right;
+   padding-left: 10px;
+   font-weight: bold;
+
+}
+
+.tablaediciontitulo{
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #E0E1E9;
+}

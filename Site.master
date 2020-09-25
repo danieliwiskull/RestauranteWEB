@@ -1,0 +1,171 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Restaurante</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link href="<%# ResolveUrl("~/") %>css/Header.css" rel="stylesheet" />
+    <script type="text/javascript" src="<%# ResolveUrl("~/") %>js/Header.js"></script>
+
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 226px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div id="London" class="tabcontent">
+  <h1>London</h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h1>Oslo</h1>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+    <form id="form1" runat="server">
+
+         <table>
+                         <p>
+                <asp:LoginStatus id="LoginStatus1" runat="server" OnLoggingOut="LoginStatus1_LoggingOut"></asp:LoginStatus></p>
+            <p>
+                <asp:LoginView id="LoginView1" runat="server">
+                    <AnonymousTemplate>
+                        Please log in for personalized information.
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Thanks for logging in 
+                        <asp:LoginName id="LoginName1" runat="Server"></asp:LoginName>.
+                    </LoggedInTemplate>
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="Admin">
+                            <ContentTemplate>
+                                <asp:LoginName id="LoginName2" runat="Server"></asp:LoginName>, you
+                                are logged in as an administrator.
+                            </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+                </asp:LoginView></p>
+         </table>
+
+<%--        <div id="wrap">
+            <div id="container">
+                <div id="header">
+   
+                    <div class="info_usuario" style=" top: 34px; height: 31px; margin-right:340px">--%>
+                        <%--<asp:Label ID="lbl_rut" runat="server" Font-Bold="True" ForeColor="Silver">12.345.678-9</asp:Label><br />
+                        <br />
+                        <asp:Label ID="lbl_usuario" runat="server" Font-Bold="True" Font-Underline="True">Usuario de Prueba</asp:Label>--%>
+<%--                        <asp:Label ID="lbl_titulo_sitio" runat="server" Font-Bold="True" Font-Size="26pt" 
+                                Font-Underline="False" CssClass="texto_titulo_sitio" ForeColor="White">Rendiciones WebPay
+                            </asp:Label>--%>
+                       
+<%--                    </div>
+                    <div id="caption">
+                        &nbsp;
+                    </div>
+                </div>--%>
+<%--                <div id="navigation">--%>
+<%--                    <ul id="menus">
+                        <li class="page_item"></li>
+                    </ul>--%>
+                   
+                  <!-- Inicio Menu -->
+ 
+<%--                  <cc1:CssMenu ID="CssMenu1" runat="server" CssMenuPrincipal="pmenu" CssSubMenu="smenu" Visible="true" Width="100%">
+                         <Items>
+                             <cc1:MenuItem ImagenUrl="App_Themes\default\img\home.png" TargetUrl="home.aspx"
+                              Text="Home">
+                             </cc1:MenuItem>
+                         </Items>
+                     </cc1:CssMenu>--%>
+                     
+                 <!-- Fin Menu --> 
+                   
+                   
+                   
+                   
+                <%--</div>
+                <div id="content">
+                    <table class="layout-grid" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="left-nav">
+                                <!--  MENU  -->
+                                <div id="menu">
+                                
+                                       <asp:Repeater ID="rep" runat="server">
+                                          <ItemTemplate>
+                                             <div class="menutituloX">
+                                                <%--<ul class="textotitulo">
+                                                    <asp:HiddenField runat="server" ID="codigo" Value='a'/>
+                                                    <li>Menu</li>
+                                                </ul>--%>
+                                                <%--<div class="menubody">
+                                                    <ul class="menulist">
+                                                        <asp:Repeater ID="repsub" runat="server">
+                                                            <ItemTemplate>
+                                                                 <li><a  href='<%#Eval("Url")%>'><%#Eval("Nombre")%></a></li>
+                                                            </ItemTemplate>  
+                                                        </asp:Repeater>
+                                                    </ul>
+                                                </div>
+                                             </div> 
+                                          </ItemTemplate>   
+                                       </asp:Repeater>
+                      
+                                    <div id="menubottom">
+                                    </div>
+                                </div>--%>
+                                
+		            
+ <%--                           </td>
+                            <td class="normal">
+                                <!--	<div style="position: absolute; right: 27px" id="switcher"></div> -->
+                            </td>
+                        </tr>
+                    </table>--%>
+<%--                </div>--%>
+
+                <br /> <br /><br /><br /> <br /> <br /><br /><br /><br /> <br /><br /><br /><br /> <br /><br /><br />
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+
+                <div id="footer">
+                    <div id="copyright"> Copyright <!-- <a id="gotop" href="#" onclick="MGJS.goTop();return false;">Subir</a></div> -->
+                </div>
+                <!-- footer END -->
+            </div>
+            <!-- container END -->
+<%--        </div>
+            </div>--%>
+    </form>
+</body>
+</html>

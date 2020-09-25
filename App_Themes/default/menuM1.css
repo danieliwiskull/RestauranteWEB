@@ -1,0 +1,129 @@
+/*body { behavior:url("csshover.htc"); }*/
+
+.menuccs-container
+	{
+	position: absolute;		
+	top: 1em;
+	left: 1em;
+}
+
+.menuccs
+	{
+		
+	font-family : Arial;
+    font-size : 8pt;
+	float:left;
+	/*margin:2em;
+	margin-top: 1em;*/
+	
+	list-style-type: none;
+	margin: auto;
+	height: 40px;
+	width: 100%;
+
+	
+}
+	
+.menuccs a img {
+    vertical-align:middle;
+    border:none;
+}	
+		
+.menuccs a
+	{
+	/*border: 1px solid #0040FF;*/
+	display:block;
+	white-space:nowrap;
+	margin:0;
+	padding-left: 18px;
+    padding-right: 5px;
+	line-height: 40px;
+	text-decoration: none;
+	text-align:left;
+    vertical-align:middle;
+}
+	
+.menuccs a:link, .menuccs a:visited, .menuccs a:active	
+	{
+	/*color: white;
+	background-color: #0040FF;*/		
+	text-decoration:none;
+	padding-right: 15px;
+	}
+	
+/*.menuccs a:hover						
+	{
+	background-color: #668CFF;	
+    color:Black;
+	}	*/
+	
+.menuccs a.top_parent, .menuccsX a.top_parent:hover 
+	{
+	background-image: url(menucss/navdown_blue.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+	
+.menuccs a.parent, .menuccsX a.parent:hover 	
+	{
+	background-image: url(menucss/nav_blue.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+
+.menuccs ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+    position: relative; 
+    display: inline;
+}
+	
+.menuccs li
+	{
+	position:relative;
+	float:left;
+	clear:both;
+	min-height: 1px;		
+	vertical-align: bottom;		
+	text-align:left;
+	display: inline;
+}
+
+.menuccs ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+}
+
+.menuccs ul ul ul
+	{
+	top:0;
+	left:100%;
+}
+
+div.menuccs li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+}
+
+div.menuccs li:hover ul ul,
+div.menuccs li li:hover ul ul,
+div.menuccs li li li:hover ul ul,
+div.menuccs li li li li:hover ul ul
+{display:none;}
+
+div.menuccs li:hover ul,
+div.menuccs li li:hover ul,
+div.menuccs li li li:hover ul,
+div.menuccs li li li li:hover ul
+{display:block;}
+
+

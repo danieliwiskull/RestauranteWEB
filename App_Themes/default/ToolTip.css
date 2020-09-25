@@ -1,0 +1,39 @@
+﻿#text{
+	margin:10px auto;
+	width:800px;
+   	}
+.hotspot{
+	color:#000000;
+	padding-bottom:1px;
+	border-bottom:1px dotted #900; 
+	cursor:pointer ;
+	}
+#tt {
+	position:absolute;
+	display:block;
+	/*background:url(imgtool/tt_left.gif) top left no-repeat*/
+	}
+#tttop{
+	display:block;
+	height:2px;
+	margin-left:1px;
+	/*background:url(imgtool/tt_top.gif) top right no-repeat;*/
+	overflow:hidden  ;
+	}
+#ttcont {
+	display:block;
+	padding:5px 5px 5px 5px;
+	margin-left:1px;
+	background:#B6B6B6;
+	color:#000000    ;
+	}
+#ttbot{
+	display:block;
+	height:2px;
+	margin-left:1px;
+	/*background:url(imgtool/tt_bottom.gif) top right no-repeat;*/
+	overflow:hidden    ;
+  }
+
+
+

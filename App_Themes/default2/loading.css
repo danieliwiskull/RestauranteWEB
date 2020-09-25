@@ -1,0 +1,25 @@
+﻿.loading-image 
+{
+	background: transparent url(img/loading.gif) no-repeat center center; 
+}
+
+
+#loadingScreen {
+    background: url(img/loading.gif) no-repeat 5px 8px;
+    padding-left: 25px;
+}
+
+.loadingScreenWindow .ui-dialog-titlebar-close ,.printme .ui-dialog-titlebar-close {
+    display: none;
+}
+
+
+.ui-dialog .ui-dialog-content.ui-dialog-spinner{
+    background: url("img/ajax-loader2.gif") no-repeat scroll 5px 15px transparent;
+    padding: 30px 0 0px 70px;
+    border: 2px solid #DDDDDD;
+    font-weight: 900;
+    line-height: 1em;
+    font-size: 1.1em;
+    color: #737373;
+}

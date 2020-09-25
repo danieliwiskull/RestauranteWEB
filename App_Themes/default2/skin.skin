@@ -1,0 +1,49 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />  <!-- <Columns>
+         <asp:BoundField ItemStyle-CssClass="" onmouseover="this.style.backgroundColor='lightblue'" onmouseout="this.style.backgroundColor='transparent'"/>
+     </Columns> -->
+--%>
+
+
+<asp:ImageButton SkinID="eliminar" ToolTip="Eliminar" ImageUrl="img/eliminar.png" ImageAlign="Middle"  runat="server"/>
+<asp:ImageButton SkinID="anular" ToolTip="Cancelar" ImageUrl="img/anular.png" ImageAlign="Middle"  runat="server"/>
+<asp:ImageButton SkinID="cancelar" ToolTip="Anular" ImageUrl="img/anular.png" ImageAlign="Middle"  runat="server"/>
+<asp:ImageButton SkinID="editar" ToolTip="Editar" ImageUrl="img/editar.gif" ImageAlign="Middle"  runat="server"/>
+<asp:ImageButton SkinID="ver" ToolTip="Ver" ImageUrl="img/lupa.gif" ImageAlign="Middle"  runat="server"/>
+<asp:ImageButton SkinID="agregar" ToolTip="Agregar" ImageUrl="img/agregar.png" ImageAlign="Middle"  whidth="18" height="18" runat="server" />
+<asp:ImageButton SkinID="ok" ToolTip="Agregar" ImageUrl="img/ok.png" runat="server" ImageAlign="Middle"  whidth="20" height="20"/>
+<asp:ImageButton SkinID="ok2" ToolTip="Agregar" ImageUrl="img/ok2.png" runat="server" ImageAlign="Middle"  whidth="20" height="20"/>
+<asp:ImageButton SkinID="calendario" ToolTip="Fecha" ImageUrl="img/gantt.png" ImageAlign="Middle" runat="server" />
+<asp:ImageButton ToolTip="Imprimir"  SkinID="Imprimir" ImageUrl="img/imprimir.png" runat="server"/>
+<asp:ImageButton SkinID="excel" ToolTip="Exportar a Excel" ImageUrl="img/excel.png" ImageAlign="AbsMiddle" runat="server" />
+<asp:ImageButton SkinID="documentos01" ToolTip="Ver Documentos" ImageUrl="img/doc01.png" ImageAlign="Middle" runat="server" />
+<asp:ImageButton SkinID="Pagar" ToolTip="Pagar" ImageUrl="img/pagar.jpg" ImageAlign="Middle" runat="server" />
+
+
+<asp:HyperLink SkinID="calendario" ToolTip="Calendario" ImageUrl="img/gantt.png" runat="server"/>
+
+<asp:Image SkinID="ver" ToolTip="" ImageUrl="img/lupa.gif" runat="server"/>
+<asp:Image SkinID="AMARILLO" ToolTip="" ImageUrl="img/s_amarillo.png" runat="server"/>
+<asp:Image SkinID="VERDE" ToolTip="" ImageUrl="img/s_verde.png" runat="server"/>
+<asp:Image SkinID="ROJO" ToolTip="" ImageUrl="img/s_rojo.png" runat="server"/>
+<asp:Image SkinID="Comentario" ToolTip="" ImageUrl="img/comentario.png" runat="server"/>
+<asp:Image SkinID="ok3" ToolTip="" ImageUrl="images/ok.png" runat="server" ImageAlign="Middle" whidth="16" height="16"/>
+
+
+<asp:ImageButton SkinID="avanzar" ToolTip="Avanzar"  ImageAlign="Middle" ImageUrl="img/avanzar.png" runat="server"/>
+<asp:ImageButton SkinID="retroceder" ToolTip="Retroceder"  ImageAlign="Middle" ImageUrl="img/retroceder.png" runat="server"/>
+
+<asp:ImageButton SkinID="abajo" ToolTip="Agregar"  ImageAlign="Middle" ImageUrl="img/abajo.png" whidth="22" height="22" runat="server"/>
+

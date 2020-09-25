@@ -1,0 +1,49 @@
+﻿.app_titulo02{
+  background-color: #0D5995 ;/*#048BDD;*/
+  padding: 15px 0px 15px 0px;
+  margin:  10px 5px 0px 10px;
+  text-align:center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+.app_panel_filtros{
+  background-color:#DBDBDB; /*#008ce0 ;*//*#3E9BE0;*/
+  padding: 15px 0px 15px 0px;
+  margin:  0px 5px 5px 10px;
+  color: #0B497D ;/*#FFFFFF;*/
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+}
+
+fieldset
+{
+    margin: 15px  auto 0px auto;
+    border: 1px solid #cccccc;
+    font-family: arial, verdana, helvetica, sans-serif;
+   
+}
+
+legend
+{
+	color: #484848;
+	font-size: 15px;
+	font-weight : bold;
+	MARGIN-BOTTOM: 5px; 
+	PADDING-BOTTOM: 5px; 
+	MARGIN-LEFT: 10px; 
+	VERTICAL-ALIGN: bottom;
+}
+.app_contenido{
+  padding: 15px 0px 15px 0px;
+  margin:  5px 5px 5px 10px;
+  display: block;
+
+}
+.ocultar{
+    /*visibility : hidden;*/
+    display : none;
+}

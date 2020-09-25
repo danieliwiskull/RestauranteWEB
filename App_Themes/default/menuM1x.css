@@ -1,0 +1,40 @@
+﻿.menuccs
+{
+  background-image     : url(menucss/fondo.PNG);
+}
+
+.pmenu
+{
+    background-image   : url(menucss/fondo.PNG);
+	margin: auto;
+}
+
+.pmenu a
+{
+	color: #ffffff;
+}
+
+.pmenu a:hover  /* Menu principal , seleccion */
+{
+	background-image: url(menucss/fondo_seleccionado.png);
+	background-repeat: repeat-x;
+	background-position:center;
+	color: #000000;
+}
+
+.smenu {
+	background-image: url(menucss/fondo.PNG);
+	margin: auto;
+}
+
+.smenu a{
+	color: #ffffff;
+	min-width:140px;
+}
+
+.smenu a:hover{  /*  Sub menu , seleccion */
+   background-image:url(menucss/fondo_seleccionado.png);
+   background-repeat:repeat-x;
+   background-position:center;
+   color: #000000;
+}
